@@ -7,6 +7,12 @@ apt update && apt upgrade
 
 apt install git
 
-git clone https://github.com/alvinbaby/UserRecon-v1.0.git
+git clone https://github.com/alvinbaby/UserRecon.git
+
+cd UserRecon
+
+chmod +x *
+
+./userrecon.sh
 
 cat (usernames)txt
